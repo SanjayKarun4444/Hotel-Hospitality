@@ -224,26 +224,4 @@ python scripts/setup_mongodb.py
 ## Deployment
 
 **Current**: Local MySQL + Cloud MongoDB Atlas + Local Python
----
 
-## Author
-
-**Name**: Sanjay Karunamoorthy
-**Course**: DS-2002 Data Systems  
-**Institution**: University of Virginia  
-**Honor Code**: Completed individually per UVA Honor Policy
-
----
-
-## Summary
-
-✅ **Complete ETL pipeline** with 3 data source types  
-✅ **Star schema data mart** optimized for analytics  
-✅ **Production-ready code** with error handling and logging  
-✅ **Comprehensive documentation** and setup instructions
-
-**Status**: Ready for submission
-
----
-
-*Questions? Contact: vmw8vr@virginia.edu*
