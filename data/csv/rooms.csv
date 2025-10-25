@@ -1,4 +1,16 @@
 room_id,room_type,price_per_night,capacity
-1,Standard,100.00,2
-2,Deluxe,150.00,2
-3,Suite,250.00,4
+1,Standard Single,100.00,1
+2,Standard Double,150.00,2
+3,Deluxe Double,200.00,2
+4,Junior Suite,250.00,3
+5,Executive Suite,350.00,3
+6,Presidential Suite,500.00,4
+7,Ocean View Double,180.00,2
+8,Mountain View Double,170.00,2
+9,Family Suite,400.00,5
+10,Standard Twin,160.00,2
+11,Deluxe Twin,220.00,2
+12,Studio Apartment,280.00,2
+13,Penthouse Suite,600.00,4
+14,Garden View Single,120.00,1
+15,Business Room,190.00,1

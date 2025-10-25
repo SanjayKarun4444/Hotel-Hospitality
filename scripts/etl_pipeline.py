@@ -54,16 +54,27 @@ mongo_client.close()
 
 # Source 3: Generate Date dimension (Programmatic/In-memory source)
 print("  ✓ Generating date dimension...")
-dates_df = pd.DataFrame({
-    'date_id': [1, 2, 3],
-    'date': ['2023-01-15', '2023-02-20', '2023-03-25'],
-    'day': [15, 20, 25],
-    'month': [1, 2, 3],
-    'year': [2023, 2023, 2023],
-    'quarter': [1, 1, 1],
-    'day_name': ['Sunday', 'Monday', 'Saturday'],
-    'month_name': ['January', 'February', 'March']
-})
+
+# Generate a range of dates for 2023
+import datetime
+start_date = datetime.datetime(2023, 1, 1)
+dates = []
+date_id = 1
+
+for i in range(365):  # Full year of dates
+    current_date = start_date + datetime.timedelta(days=i)
+    dates.append({
+        'date_id': date_id + i,
+        'date': current_date.strftime('%Y-%m-%d'),
+        'day': current_date.day,
+        'month': current_date.month,
+        'year': current_date.year,
+        'quarter': ((current_date.month-1) // 3) + 1,
+        'day_name': current_date.strftime('%A'),
+        'month_name': current_date.strftime('%B')
+    })
+
+dates_df = pd.DataFrame(dates)
 print(f"    - Generated {len(dates_df)} date records")
 
 # ============================================================================
