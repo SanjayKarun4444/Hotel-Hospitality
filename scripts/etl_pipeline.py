@@ -117,7 +117,7 @@ with engine.connect() as conn:
 
 # Read and execute schema.sql
 print("  ✓ Creating tables from schema...")
-with open('schema.sql', 'r') as f:
+with open('scripts/schema.sql', 'r') as f:
     schema_sql = f.read()
     # Split by semicolon and execute each statement
     statements = [stmt.strip() for stmt in schema_sql.split(';') if stmt.strip()]
