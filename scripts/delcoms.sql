@@ -1,0 +1,5 @@
+DELETE FROM bookings;
+DELETE FROM guest;
+DELETE FROM room;
+DELETE FROM hotel;
+DELETE FROM date;

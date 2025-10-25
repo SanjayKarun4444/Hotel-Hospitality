@@ -1,0 +1,4 @@
+booking_id,date_id,guest_id,room_id,hotel_id,nights_stayed,price_per_night
+1,1,1,1,1,2,100.00
+2,2,2,2,1,3,150.00
+3,3,3,3,2,1,250.00

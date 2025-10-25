@@ -1,0 +1,4 @@
+room_id,room_type,price_per_night,capacity
+1,Standard,100.00,2
+2,Deluxe,150.00,2
+3,Suite,250.00,4
