@@ -1,6 +1,6 @@
 # Hotel Booking Data Mart - ETL Pipeline
 
-**DS-2002 Data Project 1**  
+**DS-2002 Project 1: Midterm**  
 **Author**: Sanjay Karunamoorthy 
 **University of Virginia**
 
